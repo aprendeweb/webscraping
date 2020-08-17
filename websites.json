@@ -1,0 +1,11 @@
+[
+  {
+    "name": "YouTube",
+    "url": "http://www.youtube.com",
+    "scriptName": "youtube",
+    "selectors": {
+      "trendsLink": "#items > ytd-mini-guide-entry-renderer:nth-child(2) > a",
+      "trendListTag": "ytd-video-renderer #dismissable #meta"
+    }
+  }
+]
