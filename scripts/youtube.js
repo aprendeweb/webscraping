@@ -36,5 +36,4 @@ module.exports = async (page, website) => {
     JSON.stringify(trends),
     'utf8'
   );
-  await page.close();
 };
