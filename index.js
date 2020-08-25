@@ -1,3 +1,4 @@
+require('dotenv').config();
 const puppeteer = require('puppeteer');
 const path = require('path');
 const websites = require('./websites.json');
@@ -10,4 +11,6 @@ const websites = require('./websites.json');
     await require(scriptPath)(page, website);
     console.log('Scraping done for', website.name);
   }
+  await page.close();
+  await browser.close();
 })();

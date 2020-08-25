@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/aprendeweb/webscraping#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "puppeteer": "^5.2.1"
   }
 }

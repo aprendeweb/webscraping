@@ -7,5 +7,16 @@
       "trendsLink": "#items > ytd-mini-guide-entry-renderer:nth-child(2) > a",
       "trendListTag": "ytd-video-renderer #dismissable #meta"
     }
+  },
+  {
+    "name": "Facebook",
+    "url": "https://www.facebook.com",
+    "scriptName": "facebook",
+    "selectors": {
+      "emailInput": "#email",
+      "passwordInput": "#pass",
+      "signInbutton": "#u_0_b",
+      "products": "#js_5 > div._3-98 > div > div > div._65db > div > div > div._40xc._6z8v._3qn7._61-0._2fyi._3qnf > div"
+    }
   }
 ]
